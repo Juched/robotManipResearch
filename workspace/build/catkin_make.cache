@@ -1,0 +1,2 @@
+gpd_ros:p_grab
+-DCATKIN_DEVEL_PREFIX=/home/andrew/robotManipResearch/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/andrew/robotManipResearch/workspace/install -G Unix Makefiles

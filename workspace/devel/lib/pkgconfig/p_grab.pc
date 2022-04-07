@@ -1,0 +1,8 @@
+prefix=/home/andrew/robotManipResearch/workspace/devel
+
+Name: p_grab
+Description: Description of p_grab
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
