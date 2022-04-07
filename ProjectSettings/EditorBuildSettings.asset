@@ -4,9 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d8bc6b88302d5260e88b9d38486064f5,
-      type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
-      guid: db63e05d3a22331bcb6a9c6710d6342a, type: 2}
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Tests/PlayMode/PlayModeTestScenes/TargetPlacementTest.unity
+    guid: 3d328f38f71b71e47bb8d96869012ffe
+  - enabled: 1
+    path: Assets/Tests/PlayMode/PlayModeTestScenes/TargetPlacementTest.unity
+    guid: 3d328f38f71b71e47bb8d96869012ffe
+  m_configObjects: {}
