@@ -4,10 +4,11 @@ import numpy as np
 import rospy
 from std_msgs.msg import String
 
+import rospy
 import octomap
 
 
-def receive_pointcloud2_msg(octomap):
+def receive_pointcloud2_msg(pointcloud):
     timestamp = None
     if timestamp is None: # if the timestamp is not similar to that of the image we got from our service, do nothing
         return
@@ -33,7 +34,7 @@ def retrieve_pointcloud():
     # wait for pointcloud to have similar timestamp
     rospy.init_node('listener', anonymous=True)
 
-    rospy.Subscriber("chatter", String, receive_pointcloud2_msg)
+    rospy.Subscriber("/stereo/points2", String, receive_pointcloud2_msg)
 
 
     # spin() simply keeps python from exiting until this node is stopped
@@ -45,3 +46,7 @@ class ObjectGrabber:
 
 if __name__ == '__main__':
     x = 2
+
+
+
+
