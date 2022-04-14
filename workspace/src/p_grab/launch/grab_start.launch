@@ -10,7 +10,9 @@
         <remap from="/stereo/right/camera_info" to="/right/image/camera_info" />
     </node>
     <param name="robot_description" command="$(find xacro)/xacro --inorder $(find niryo_one_description)/urdf/v1/niryo_one.urdf.xacro" />
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"></node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+        <rosparam param="source_list">["joint_states"]</rosparam>
+    </node>
     <node pkg="p_grab" type="pointcloud_republisher.py" name="points_repub" output="screen"></node>
 </launch>
