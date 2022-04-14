@@ -1,1 +1,1 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_bringup/lib/pkgconfig/niryo_one_bringup.pc
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_bringup/lib/pkgconfig/niryo_one_bringup.pc

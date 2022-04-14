@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
+CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk
+CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

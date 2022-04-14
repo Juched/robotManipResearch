@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "p_grab"
-PROJECT_SPACE_DIR = "/home/andrew/robotManipResearch/workspace/devel/.private/p_grab"
+PROJECT_SPACE_DIR = "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/p_grab"
 PROJECT_VERSION = "0.0.0"

@@ -2,3 +2,16 @@ Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share
 Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake
 Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/niryo_one_debug/dxl_debug_tools
 Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_debug.pc
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/cmake.lock, /home/andrew/robotManipResearch/workspace/devel/./cmake.lock)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/share/niryo_one_debug/cmake/niryo_one_debugConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools, /home/andrew/robotManipResearch/workspace/devel/lib/niryo_one_debug/dxl_debug_tools)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/pkgconfig/niryo_one_debug.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_debug.pc)
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/niryo_one_debug/dxl_debug_tools
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_debug.pc
+Already unlinked: {}

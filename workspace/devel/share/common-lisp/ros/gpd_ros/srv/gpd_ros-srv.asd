@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/gpd_ros/share/common-lisp/ros/gpd_ros/srv/gpd_ros-srv.asd

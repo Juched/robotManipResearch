@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"niryo_one_driver\"
 
-CXX_INCLUDES = -I/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/include -I/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include -I/home/andrew/robotManipResearch/workspace/devel/.private/moveit_msgs/include -I/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/include -I/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/include -I/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include -I/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/moveit_msgs/include -I/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/include -I/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

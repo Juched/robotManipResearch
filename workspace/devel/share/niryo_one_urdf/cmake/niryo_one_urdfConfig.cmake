@@ -1,1 +1,1 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake

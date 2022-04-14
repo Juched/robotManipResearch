@@ -1,4 +1,4 @@
-prefix=/home/andrew/robotManipResearch/workspace/install
+prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/install
 
 Name: moveit_msgs
 Description: Description of moveit_msgs

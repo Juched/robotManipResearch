@@ -1,1 +1,1 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_tcp_server/lib/pkgconfig/niryo_one_tcp_server.pc
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_tcp_server/lib/pkgconfig/niryo_one_tcp_server.pc

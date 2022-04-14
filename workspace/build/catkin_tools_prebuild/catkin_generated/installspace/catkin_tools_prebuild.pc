@@ -1,4 +1,4 @@
-prefix=/home/andrew/robotManipResearch/workspace/install
+prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

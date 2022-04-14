@@ -1,1 +1,1 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_moveit_config/share/niryo_one_moveit_config/cmake/niryo_one_moveit_configConfig-version.cmake
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_moveit_config/share/niryo_one_moveit_config/cmake/niryo_one_moveit_configConfig-version.cmake

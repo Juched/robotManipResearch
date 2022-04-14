@@ -1,3 +1,13 @@
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/lib/pkgconfig/niryo_one_description.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_description.pc)
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_description.pc
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/cmake.lock, /home/andrew/robotManipResearch/workspace/devel/./cmake.lock)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/lib/pkgconfig/niryo_one_description.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_description.pc)
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_description.pc
+Already unlinked: {}

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver"
-  "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver.pdb"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver.pdb"
   "CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o"
   "CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o"
   "CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools"
-  "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools.pdb"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools.pdb"
   "CMakeFiles/dxl_debug_tools.dir/src/dxl_debug.cpp.o"
   "CMakeFiles/dxl_debug_tools.dir/src/dxl_tools.cpp.o"
 )

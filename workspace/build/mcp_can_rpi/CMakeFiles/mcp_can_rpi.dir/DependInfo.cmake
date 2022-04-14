@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi.cpp" "/home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/mcp_can_rpi.dir/src/mcp_can_rpi.cpp.o"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi.cpp" "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/mcp_can_rpi.dir/src/mcp_can_rpi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include"
+  "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

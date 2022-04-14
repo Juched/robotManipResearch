@@ -1,82 +1,82 @@
 
 "use strict";
 
-let ObjDetection = require('./ObjDetection.js')
-let SetSequenceAutorun = require('./SetSequenceAutorun.js')
-let GetTrajectoryList = require('./GetTrajectoryList.js')
-let ManageTrajectory = require('./ManageTrajectory.js')
-let GetWorkspaceRobotPoses = require('./GetWorkspaceRobotPoses.js')
-let DebugMarkers = require('./DebugMarkers.js')
-let EditGrip = require('./EditGrip.js')
-let ManagePosition = require('./ManagePosition.js')
-let ManageSequence = require('./ManageSequence.js')
-let ManageProcess = require('./ManageProcess.js')
-let ChangeMotorConfig = require('./ChangeMotorConfig.js')
-let PushAirVacuumPump = require('./PushAirVacuumPump.js')
-let SetLeds = require('./SetLeds.js')
-let PingDxlTool = require('./PingDxlTool.js')
-let UpdateConveyorId = require('./UpdateConveyorId.js')
-let GetPositionList = require('./GetPositionList.js')
 let GetTargetPose = require('./GetTargetPose.js')
-let DebugColorDetection = require('./DebugColorDetection.js')
-let ControlConveyor = require('./ControlConveyor.js')
-let ChangeHardwareVersion = require('./ChangeHardwareVersion.js')
+let UpdateConveyorId = require('./UpdateConveyorId.js')
+let GetWorkspaceRobotPoses = require('./GetWorkspaceRobotPoses.js')
+let GetWorkspaceRatio = require('./GetWorkspaceRatio.js')
+let ObjDetection = require('./ObjDetection.js')
+let GetTrajectoryList = require('./GetTrajectoryList.js')
+let SetCalibrationCam = require('./SetCalibrationCam.js')
+let ManageSequence = require('./ManageSequence.js')
 let RobotMove = require('./RobotMove.js')
-let GetSequenceList = require('./GetSequenceList.js')
-let GetWorkspaceList = require('./GetWorkspaceList.js')
 let SendCustomDxlValue = require('./SendCustomDxlValue.js')
-let TakePicture = require('./TakePicture.js')
-let PullAirVacuumPump = require('./PullAirVacuumPump.js')
-let SetInt = require('./SetInt.js')
-let OpenGripper = require('./OpenGripper.js')
+let EditGrip = require('./EditGrip.js')
+let SetConveyor = require('./SetConveyor.js')
+let GetInt = require('./GetInt.js')
 let EditWorkspace = require('./EditWorkspace.js')
 let CloseGripper = require('./CloseGripper.js')
-let GetInt = require('./GetInt.js')
-let GetWorkspaceRatio = require('./GetWorkspaceRatio.js')
-let SetDigitalIO = require('./SetDigitalIO.js')
-let GetCalibrationCam = require('./GetCalibrationCam.js')
-let SetConveyor = require('./SetConveyor.js')
-let SetCalibrationCam = require('./SetCalibrationCam.js')
-let GetDigitalIO = require('./GetDigitalIO.js')
+let ManageTrajectory = require('./ManageTrajectory.js')
+let PullAirVacuumPump = require('./PullAirVacuumPump.js')
+let SetInt = require('./SetInt.js')
 let SetString = require('./SetString.js')
+let ChangeHardwareVersion = require('./ChangeHardwareVersion.js')
+let ControlConveyor = require('./ControlConveyor.js')
+let GetCalibrationCam = require('./GetCalibrationCam.js')
+let GetSequenceList = require('./GetSequenceList.js')
+let DebugMarkers = require('./DebugMarkers.js')
+let DebugColorDetection = require('./DebugColorDetection.js')
+let ManagePosition = require('./ManagePosition.js')
+let GetWorkspaceList = require('./GetWorkspaceList.js')
+let GetDigitalIO = require('./GetDigitalIO.js')
+let OpenGripper = require('./OpenGripper.js')
+let PingDxlTool = require('./PingDxlTool.js')
+let ManageProcess = require('./ManageProcess.js')
+let SetSequenceAutorun = require('./SetSequenceAutorun.js')
+let TakePicture = require('./TakePicture.js')
+let PushAirVacuumPump = require('./PushAirVacuumPump.js')
+let ChangeMotorConfig = require('./ChangeMotorConfig.js')
+let SetDigitalIO = require('./SetDigitalIO.js')
+let GetPositionList = require('./GetPositionList.js')
+let SetLeds = require('./SetLeds.js')
 
 module.exports = {
-  ObjDetection: ObjDetection,
-  SetSequenceAutorun: SetSequenceAutorun,
-  GetTrajectoryList: GetTrajectoryList,
-  ManageTrajectory: ManageTrajectory,
-  GetWorkspaceRobotPoses: GetWorkspaceRobotPoses,
-  DebugMarkers: DebugMarkers,
-  EditGrip: EditGrip,
-  ManagePosition: ManagePosition,
-  ManageSequence: ManageSequence,
-  ManageProcess: ManageProcess,
-  ChangeMotorConfig: ChangeMotorConfig,
-  PushAirVacuumPump: PushAirVacuumPump,
-  SetLeds: SetLeds,
-  PingDxlTool: PingDxlTool,
-  UpdateConveyorId: UpdateConveyorId,
-  GetPositionList: GetPositionList,
   GetTargetPose: GetTargetPose,
-  DebugColorDetection: DebugColorDetection,
-  ControlConveyor: ControlConveyor,
-  ChangeHardwareVersion: ChangeHardwareVersion,
+  UpdateConveyorId: UpdateConveyorId,
+  GetWorkspaceRobotPoses: GetWorkspaceRobotPoses,
+  GetWorkspaceRatio: GetWorkspaceRatio,
+  ObjDetection: ObjDetection,
+  GetTrajectoryList: GetTrajectoryList,
+  SetCalibrationCam: SetCalibrationCam,
+  ManageSequence: ManageSequence,
   RobotMove: RobotMove,
-  GetSequenceList: GetSequenceList,
-  GetWorkspaceList: GetWorkspaceList,
   SendCustomDxlValue: SendCustomDxlValue,
-  TakePicture: TakePicture,
-  PullAirVacuumPump: PullAirVacuumPump,
-  SetInt: SetInt,
-  OpenGripper: OpenGripper,
+  EditGrip: EditGrip,
+  SetConveyor: SetConveyor,
+  GetInt: GetInt,
   EditWorkspace: EditWorkspace,
   CloseGripper: CloseGripper,
-  GetInt: GetInt,
-  GetWorkspaceRatio: GetWorkspaceRatio,
-  SetDigitalIO: SetDigitalIO,
-  GetCalibrationCam: GetCalibrationCam,
-  SetConveyor: SetConveyor,
-  SetCalibrationCam: SetCalibrationCam,
-  GetDigitalIO: GetDigitalIO,
+  ManageTrajectory: ManageTrajectory,
+  PullAirVacuumPump: PullAirVacuumPump,
+  SetInt: SetInt,
   SetString: SetString,
+  ChangeHardwareVersion: ChangeHardwareVersion,
+  ControlConveyor: ControlConveyor,
+  GetCalibrationCam: GetCalibrationCam,
+  GetSequenceList: GetSequenceList,
+  DebugMarkers: DebugMarkers,
+  DebugColorDetection: DebugColorDetection,
+  ManagePosition: ManagePosition,
+  GetWorkspaceList: GetWorkspaceList,
+  GetDigitalIO: GetDigitalIO,
+  OpenGripper: OpenGripper,
+  PingDxlTool: PingDxlTool,
+  ManageProcess: ManageProcess,
+  SetSequenceAutorun: SetSequenceAutorun,
+  TakePicture: TakePicture,
+  PushAirVacuumPump: PushAirVacuumPump,
+  ChangeMotorConfig: ChangeMotorConfig,
+  SetDigitalIO: SetDigitalIO,
+  GetPositionList: GetPositionList,
+  SetLeds: SetLeds,
 };

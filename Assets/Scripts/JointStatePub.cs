@@ -110,7 +110,7 @@ using System;
 ///
 /// Author: Simone Zandara <simone.zandara@gmail.com>
 /// </summary>
-public class ROSMoveItControllerGeneric : MonoBehaviour
+public class JointStatePub : MonoBehaviour
 {
     // Variables required for ROS communication
     public string jointStateTopicName = "joint_states";
@@ -155,12 +155,19 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
         int c = 0;
         while (root)
         {
+            print(root);
+            var revJoint = root.GetComponent<UrdfJointRevolute>();
+            if (revJoint == null)
+            {
+                break;
+            }
             jointArticulationBodies.Add(root);
             var name = root.GetComponent<UrdfJointRevolute>().jointName;
             jointPositionIndex.Add(name, c);
 
             var next_joints = root.transform.GetComponentsInChildren<ArticulationBody>().
               Where(t => t.gameObject != root.gameObject);
+
 
             // No more joints
             if (next_joints.Count() == 0)
@@ -172,6 +179,8 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
             c += 1;
         }
 
+
+        ros.RegisterPublisher<RosMessageTypes.Sensor.JointStateMsg>(jointStateTopicName);
         // Continuously publish the joint configuration of the robot
         InvokeRepeating("PublishJointStates", 1.0f, jointPublishRate);
 
@@ -190,7 +199,9 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
         uint secs = (uint)(msecs / 1000);
         uint nsecs = (uint)((msecs / 1000 - secs) * 1e+9);
         RosMessageTypes.Std.HeaderMsg header = new RosMessageTypes.Std.HeaderMsg();
-        RosMessageTypes.Std.TimeMsg time = new RosMessageTypes.Std.TimeMsg(secs, nsecs);
+        RosMessageTypes.BuiltinInterfaces.TimeMsg time = new RosMessageTypes.BuiltinInterfaces.TimeMsg();
+        time.sec = secs;
+        time.nanosec = nsecs;
         header.stamp = time;
         return header;
     }
@@ -212,6 +223,7 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
         int c = 0;
         foreach (ArticulationBody body in jointArticulationBodies)
         {
+            jointNames[c] = body.GetComponent<UrdfJointRevolute>().jointName;
             jointPositions[c] = body.jointPosition[0];
             jointVelocities[c] = body.jointVelocity[0];
             jointEfforts[c] = body.jointFriction;
@@ -220,7 +232,7 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
 
         RosMessageTypes.Std.HeaderMsg header = now();
         // Pick Pose
-        RosMessageTypes.Sensor.JointStateMsg jointState = new RosMessageTypes.Sensor.JointState
+        RosMessageTypes.Sensor.JointStateMsg jointState = new RosMessageTypes.Sensor.JointStateMsg
         {
             header = header,
             name = jointNames,
@@ -228,6 +240,8 @@ public class ROSMoveItControllerGeneric : MonoBehaviour
             velocity = jointVelocities,
             effort = jointEfforts
         };
+
+
 
         // Finally send the message to server_endpoint.py running in ROS
         ros.Send(jointStateTopicName, jointState);

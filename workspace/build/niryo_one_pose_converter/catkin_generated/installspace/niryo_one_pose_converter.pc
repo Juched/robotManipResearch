@@ -1,4 +1,4 @@
-prefix=/home/andrew/robotManipResearch/workspace/install
+prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/install
 
 Name: niryo_one_pose_converter
 Description: Description of niryo_one_pose_converter

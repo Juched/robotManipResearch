@@ -1,4 +1,4 @@
-prefix=/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver
+prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver
 
 Name: niryo_one_driver
 Description: Description of niryo_one_driver

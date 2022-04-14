@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver
+CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/niryo_one_driver
+CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver
 
 # Include any dependencies generated for this target.
 include CMakeFiles/niryo_one_driver.dir/depend.make
@@ -58,186 +58,186 @@ include CMakeFiles/niryo_one_driver.dir/progress.make
 include CMakeFiles/niryo_one_driver.dir/flags.make
 
 CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp
+CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp > CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp > CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp -o CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/change_hardware_version.cpp -o CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp
+CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp > CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp > CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp -o CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/utils/motor_offset_file_handler.cpp -o CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/niryo_one_can_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/dxl_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl320_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_driver/xl430_driver.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/dxl_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/can_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/niryo_one_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp
+CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp > CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/hw_comm/fake_communication.cpp -o CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp
+CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp > CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp > CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp -o CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/ros_interface.cpp -o CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp
+CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp > CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp > CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp -o CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/rpi_diagnostics.cpp -o CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp
+CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp > CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp > CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_hardware_interface.cpp -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.s
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o: CMakeFiles/niryo_one_driver.dir/flags.make
-CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp
+CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp > CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp > CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.i
 
 CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver/src/niryo_one_driver_node.cpp -o CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.s
 
 # Object files for target niryo_one_driver
 niryo_one_driver_OBJECTS = \
@@ -259,56 +259,56 @@ niryo_one_driver_OBJECTS = \
 # External object files for target niryo_one_driver
 niryo_one_driver_EXTERNAL_OBJECTS =
 
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/build.make
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libcontroller_manager.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libclass_loader.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroslib.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librospack.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libactionlib.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroscpp.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librostime.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libcpp_common.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /home/andrew/robotManipResearch/workspace/devel/.private/mcp_can_rpi/lib/libmcp_can_rpi.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver"
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/utils/change_hardware_version.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/utils/motor_offset_file_handler.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/niryo_one_can_driver.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/dxl_driver.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl320_driver.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_driver/xl430_driver.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/dxl_communication.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/can_communication.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/niryo_one_communication.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/hw_comm/fake_communication.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/ros_interface.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/rpi_diagnostics.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/niryo_one_hardware_interface.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/src/niryo_one_driver_node.cpp.o
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/build.make
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libcontroller_manager.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libclass_loader.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroslib.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librospack.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libactionlib.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroscpp.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/librostime.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /opt/ros/noetic/lib/libcpp_common.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/mcp_can_rpi/lib/libmcp_can_rpi.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver: CMakeFiles/niryo_one_driver.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/niryo_one_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/niryo_one_driver.dir/build: /home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver
+CMakeFiles/niryo_one_driver.dir/build: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_driver/lib/niryo_one_driver/niryo_one_driver
 
 .PHONY : CMakeFiles/niryo_one_driver.dir/build
 
@@ -317,6 +317,6 @@ CMakeFiles/niryo_one_driver.dir/clean:
 .PHONY : CMakeFiles/niryo_one_driver.dir/clean
 
 CMakeFiles/niryo_one_driver.dir/depend:
-	cd /home/andrew/robotManipResearch/workspace/build/niryo_one_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver /home/andrew/robotManipResearch/workspace/build/niryo_one_driver /home/andrew/robotManipResearch/workspace/build/niryo_one_driver /home/andrew/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles/niryo_one_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_driver /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_driver/CMakeFiles/niryo_one_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/niryo_one_driver.dir/depend
 

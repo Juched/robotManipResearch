@@ -1,4 +1,4 @@
-prefix=/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_modbus
+prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_modbus
 
 Name: niryo_one_modbus
 Description: Description of niryo_one_modbus

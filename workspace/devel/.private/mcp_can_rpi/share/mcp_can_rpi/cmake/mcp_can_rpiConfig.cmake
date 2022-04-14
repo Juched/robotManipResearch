@@ -67,14 +67,14 @@ set(mcp_can_rpi_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mcp_can_rpi_SOURCE_PREFIX /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi)
-  set(mcp_can_rpi_DEVEL_PREFIX /home/andrew/robotManipResearch/workspace/devel/.private/mcp_can_rpi)
+  set(mcp_can_rpi_SOURCE_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi)
+  set(mcp_can_rpi_DEVEL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/mcp_can_rpi)
   set(mcp_can_rpi_INSTALL_PREFIX "")
   set(mcp_can_rpi_PREFIX ${mcp_can_rpi_DEVEL_PREFIX})
 else()
   set(mcp_can_rpi_SOURCE_PREFIX "")
   set(mcp_can_rpi_DEVEL_PREFIX "")
-  set(mcp_can_rpi_INSTALL_PREFIX /home/andrew/robotManipResearch/workspace/install)
+  set(mcp_can_rpi_INSTALL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/install)
   set(mcp_can_rpi_PREFIX ${mcp_can_rpi_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mcp_can_rpi_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include " STREQUAL " ")
+if(NOT "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include " STREQUAL " ")
   set(mcp_can_rpi_INCLUDE_DIRS "")
-  set(_include_dirs "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include")
+  set(_include_dirs "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/
         message(FATAL_ERROR "Project 'mcp_can_rpi' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mcp_can_rpi' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mcp_can_rpi' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mcp_can_rpi_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/andrew/robotManipResearch/workspace/devel/.private/mcp_can_rpi/lib;/home/andrew/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/mcp_can_rpi/lib;/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp
+Change Dir: /home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f1dca/fast && /usr/bin/make -f CMakeFiles/cmTC_f1dca.dir/build.make CMakeFiles/cmTC_f1dca.dir/build
-make[1]: Entering directory '/home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1dca.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f1dca.dir/src.c.o   -c /home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f1dca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1dca.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_f1dca.dir/src.c.o  -o cmTC_f1dca 
-/usr/bin/ld: CMakeFiles/cmTC_f1dca.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_dfaac/fast && /usr/bin/make -f CMakeFiles/cmTC_dfaac.dir/build.make CMakeFiles/cmTC_dfaac.dir/build
+make[1]: Entering directory '/home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfaac.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_dfaac.dir/src.c.o   -c /home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dfaac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfaac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_dfaac.dir/src.c.o  -o cmTC_dfaac 
+/usr/bin/ld: CMakeFiles/cmTC_dfaac.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_f1dca.dir/build.make:87: cmTC_f1dca] Error 1
-make[1]: Leaving directory '/home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_f1dca/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_dfaac.dir/build.make:87: cmTC_dfaac] Error 1
+make[1]: Leaving directory '/home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dfaac/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp
+Change Dir: /home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_de49a/fast && /usr/bin/make -f CMakeFiles/cmTC_de49a.dir/build.make CMakeFiles/cmTC_de49a.dir/build
-make[1]: Entering directory '/home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_de49a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_de49a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_de49a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de49a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_de49a.dir/CheckFunctionExists.c.o  -o cmTC_de49a  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_aed3c/fast && /usr/bin/make -f CMakeFiles/cmTC_aed3c.dir/build.make CMakeFiles/cmTC_aed3c.dir/build
+make[1]: Entering directory '/home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aed3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aed3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aed3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aed3c.dir/CheckFunctionExists.c.o  -o cmTC_aed3c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_de49a.dir/build.make:87: cmTC_de49a] Error 1
-make[1]: Leaving directory '/home/andrew/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_de49a/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_aed3c.dir/build.make:87: cmTC_aed3c] Error 1
+make[1]: Leaving directory '/home/pparekh/Documents/4998/robotManipResearch/workspace/build/mcp_can_rpi/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aed3c/fast] Error 2
 
 
 

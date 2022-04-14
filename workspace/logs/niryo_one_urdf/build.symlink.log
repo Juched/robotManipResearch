@@ -1,3 +1,13 @@
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/lib/pkgconfig/niryo_one_urdf.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_urdf.pc)
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_urdf.pc
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/cmake.lock, /home/andrew/robotManipResearch/workspace/devel/./cmake.lock)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/lib/pkgconfig/niryo_one_urdf.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_urdf.pc)
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_urdf/cmake/niryo_one_urdfConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_urdf.pc
+Already unlinked: {}

@@ -1,4 +1,17 @@
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/lib/python3/dist-packages/niryo_one_user_interface/__init__.py, /home/andrew/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_user_interface/__init__.py)
-Linked: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/lib/pkgconfig/niryo_one_user_interface.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_user_interface.pc)
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_user_interface.pc
+Symlinking /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_user_interface/__init__.py
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/cmake.lock, /home/andrew/robotManipResearch/workspace/devel/./cmake.lock)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake, /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/lib/python3/dist-packages/niryo_one_user_interface/__init__.py, /home/andrew/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_user_interface/__init__.py)
+Cleaning: (/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/lib/pkgconfig/niryo_one_user_interface.pc, /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_user_interface.pc)
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_user_interface/__init__.py
+Already unlinked: {}
+Unlinking: /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_user_interface.pc
+Already unlinked: {}

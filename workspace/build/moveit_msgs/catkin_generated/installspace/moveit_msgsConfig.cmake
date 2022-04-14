@@ -67,14 +67,14 @@ set(moveit_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(moveit_msgs_SOURCE_PREFIX /home/andrew/robotManipResearch/workspace/src/moveit_msgs)
-  set(moveit_msgs_DEVEL_PREFIX /home/andrew/robotManipResearch/workspace/devel/.private/moveit_msgs)
+  set(moveit_msgs_SOURCE_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/src/moveit_msgs)
+  set(moveit_msgs_DEVEL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/moveit_msgs)
   set(moveit_msgs_INSTALL_PREFIX "")
   set(moveit_msgs_PREFIX ${moveit_msgs_DEVEL_PREFIX})
 else()
   set(moveit_msgs_SOURCE_PREFIX "")
   set(moveit_msgs_DEVEL_PREFIX "")
-  set(moveit_msgs_INSTALL_PREFIX /home/andrew/robotManipResearch/workspace/install)
+  set(moveit_msgs_INSTALL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/install)
   set(moveit_msgs_PREFIX ${moveit_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/andrew/robotManipResearch/workspace/install/lib;/home/andrew/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/pparekh/Documents/4998/robotManipResearch/workspace/install/lib;/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
