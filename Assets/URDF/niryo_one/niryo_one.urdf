@@ -144,6 +144,64 @@
     </collision>
   </link>
 
+  <joint name="left_camera_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin rpy="0 0 0" xyz="0.02 0.02 0.055" />
+    <parent link="hand_link" />
+    <child link="left_camera" />
+  </joint>
+  <!-- Camera -->
+  <link name="left_camera">
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="0.02 0.02 0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="0.02 0.02 0.02" />
+      </geometry>
+      <material name="green" />
+    </visual>
+    <inertial>
+      <mass value="1e-5" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+
+  <joint name="right_camera_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin rpy="0 0 0" xyz="-0.02 0.02 0.055" />
+    <parent link="hand_link" />
+    <child link="right_camera" />
+  </joint>
+  <!-- Camera -->
+  <link name="right_camera">
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="0.02 0.02 0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="0.02 0.02 0.02" />
+      </geometry>
+      <material name="green" />
+    </visual>
+    <inertial>
+      <mass value="1e-5" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+
   <link name="tool_link"></link>
 
   <link name="gripper_base">

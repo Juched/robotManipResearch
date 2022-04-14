@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc

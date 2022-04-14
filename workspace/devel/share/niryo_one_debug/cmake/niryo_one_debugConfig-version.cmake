@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake

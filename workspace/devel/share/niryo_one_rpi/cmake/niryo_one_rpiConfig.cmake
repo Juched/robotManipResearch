@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/share/niryo_one_rpi/cmake/niryo_one_rpiConfig.cmake
