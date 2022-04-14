@@ -67,14 +67,14 @@ set(p_grab_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(p_grab_SOURCE_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/src/p_grab)
-  set(p_grab_DEVEL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/p_grab)
+  set(p_grab_SOURCE_PREFIX /home/andrew/robotManipResearch/workspace/src/p_grab)
+  set(p_grab_DEVEL_PREFIX /home/andrew/robotManipResearch/workspace/devel/.private/p_grab)
   set(p_grab_INSTALL_PREFIX "")
   set(p_grab_PREFIX ${p_grab_DEVEL_PREFIX})
 else()
   set(p_grab_SOURCE_PREFIX "")
   set(p_grab_DEVEL_PREFIX "")
-  set(p_grab_INSTALL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/install)
+  set(p_grab_INSTALL_PREFIX /home/andrew/robotManipResearch/workspace/install)
   set(p_grab_PREFIX ${p_grab_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pparekh/Documents/4998/robotManipResearch/workspace/install/lib;/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/andrew/robotManipResearch/workspace/install/lib;/home/andrew/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

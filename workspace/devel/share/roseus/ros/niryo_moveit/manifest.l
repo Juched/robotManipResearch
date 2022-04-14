@@ -1,1 +1,0 @@
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_moveit/share/roseus/ros/niryo_moveit/manifest.l

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander
+CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_commander
+CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/niryo_one_commander
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_commander && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_commander /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_commander /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_commander/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/robotManipResearch/workspace/build/niryo_one_commander && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_commander /home/andrew/robotManipResearch/workspace/build/niryo_one_commander /home/andrew/robotManipResearch/workspace/build/niryo_one_commander /home/andrew/robotManipResearch/workspace/build/niryo_one_commander/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

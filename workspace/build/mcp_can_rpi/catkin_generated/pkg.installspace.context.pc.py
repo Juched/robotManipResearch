@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lmcp_can_rpi".split(';') if "-lmcp_can_rpi" != "" else []
 PROJECT_NAME = "mcp_can_rpi"
-PROJECT_SPACE_DIR = "/home/pparekh/Documents/4998/robotManipResearch/workspace/install"
+PROJECT_SPACE_DIR = "/home/andrew/robotManipResearch/workspace/install"
 PROJECT_VERSION = "1.0.0"

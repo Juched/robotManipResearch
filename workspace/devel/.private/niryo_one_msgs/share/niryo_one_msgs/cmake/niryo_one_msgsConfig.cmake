@@ -67,14 +67,14 @@ set(niryo_one_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(niryo_one_msgs_SOURCE_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs)
-  set(niryo_one_msgs_DEVEL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs)
+  set(niryo_one_msgs_SOURCE_PREFIX /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs)
+  set(niryo_one_msgs_DEVEL_PREFIX /home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs)
   set(niryo_one_msgs_INSTALL_PREFIX "")
   set(niryo_one_msgs_PREFIX ${niryo_one_msgs_DEVEL_PREFIX})
 else()
   set(niryo_one_msgs_SOURCE_PREFIX "")
   set(niryo_one_msgs_DEVEL_PREFIX "")
-  set(niryo_one_msgs_INSTALL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/install)
+  set(niryo_one_msgs_INSTALL_PREFIX /home/andrew/robotManipResearch/workspace/install)
   set(niryo_one_msgs_PREFIX ${niryo_one_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(niryo_one_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include " STREQUAL " ")
+if(NOT "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include " STREQUAL " ")
   set(niryo_one_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include")
+  set(_include_dirs "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private
         message(FATAL_ERROR "Project 'niryo_one_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'niryo_one_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'niryo_one_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(niryo_one_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib;/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib;/home/andrew/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

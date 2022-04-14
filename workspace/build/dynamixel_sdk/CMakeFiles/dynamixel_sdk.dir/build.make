@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
+CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk
+CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dynamixel_sdk.dir/depend.make
@@ -58,121 +58,121 @@ include CMakeFiles/dynamixel_sdk.dir/progress.make
 include CMakeFiles/dynamixel_sdk.dir/flags.make
 
 CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp
+CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp
+CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol1_packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp
+CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/protocol2_packet_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp
+CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_read.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp
+CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_sync_write.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp
+CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_read.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp
+CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp > CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/group_bulk_write.cpp -o CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp
+CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp > CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler.cpp -o CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.s
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o: CMakeFiles/dynamixel_sdk.dir/flags.make
-CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o -c /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp
+CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o -c /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp > CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp > CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.i
 
 CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp -o CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/src/port_handler_linux.cpp -o CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.s
 
 # Object files for target dynamixel_sdk
 dynamixel_sdk_OBJECTS = \
@@ -189,39 +189,39 @@ dynamixel_sdk_OBJECTS = \
 # External object files for target dynamixel_sdk
 dynamixel_sdk_EXTERNAL_OBJECTS =
 
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/build.make
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libroscpp.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librostime.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so"
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/packet_handler.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_sync_write.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/build.make
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libroscpp.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/librostime.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so: CMakeFiles/dynamixel_sdk.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamixel_sdk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/dynamixel_sdk.dir/build: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so
+CMakeFiles/dynamixel_sdk.dir/build: /home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so
 
 .PHONY : CMakeFiles/dynamixel_sdk.dir/build
 
@@ -230,6 +230,6 @@ CMakeFiles/dynamixel_sdk.dir/clean:
 .PHONY : CMakeFiles/dynamixel_sdk.dir/clean
 
 CMakeFiles/dynamixel_sdk.dir/depend:
-	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_sdk.dir/depend
 

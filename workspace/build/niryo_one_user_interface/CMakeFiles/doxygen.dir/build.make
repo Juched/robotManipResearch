@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface
+CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_user_interface
+CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/niryo_one_user_interface
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_user_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_user_interface /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_user_interface /home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_user_interface/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/robotManipResearch/workspace/build/niryo_one_user_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_user_interface /home/andrew/robotManipResearch/workspace/build/niryo_one_user_interface /home/andrew/robotManipResearch/workspace/build/niryo_one_user_interface /home/andrew/robotManipResearch/workspace/build/niryo_one_user_interface/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

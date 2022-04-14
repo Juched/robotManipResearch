@@ -1,4 +1,4 @@
-prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/install
+prefix=/home/andrew/robotManipResearch/workspace/install
 
 Name: dynamixel_sdk
 Description: Description of dynamixel_sdk

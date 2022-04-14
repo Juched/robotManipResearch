@@ -1,4 +1,4 @@
-prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/p_grab
+prefix=/home/andrew/robotManipResearch/workspace/devel/.private/p_grab
 
 Name: p_grab
 Description: Description of p_grab

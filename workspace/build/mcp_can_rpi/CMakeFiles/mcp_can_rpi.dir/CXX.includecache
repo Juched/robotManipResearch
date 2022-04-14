@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_dfs_rpi.h
+/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_dfs_rpi.h
 stdint.h
 -
 
-/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_rpi.h
+/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_rpi.h
 wiringPi.h
 -
 wiringPiSPI.h
@@ -20,9 +20,9 @@ stdio.h
 time.h
 -
 mcp_can_rpi/mcp_can_dfs_rpi.h
-/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_rpi/mcp_can_dfs_rpi.h
+/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/include/mcp_can_rpi/mcp_can_rpi/mcp_can_dfs_rpi.h
 
-/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi.cpp
+/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi.cpp
 mcp_can_rpi/mcp_can_rpi.h
-/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi/mcp_can_rpi.h
+/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/mcp_can_rpi/src/mcp_can_rpi/mcp_can_rpi.h
 

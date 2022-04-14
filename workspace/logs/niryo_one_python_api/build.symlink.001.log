@@ -1,0 +1,17 @@
+Symlinking /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig-version.cmake
+Symlinking /home/andrew/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig.cmake
+Symlinking /home/andrew/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_python_api/__init__.py
+Symlinking /home/andrew/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_python_api.pc
+Cleaning: (/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_python_api/cmake.lock, /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock)
+Cleaning: (/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_python_api/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig-version.cmake, /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig-version.cmake)
+Cleaning: (/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_python_api/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig.cmake, /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig.cmake)
+Cleaning: (/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_python_api/lib/pkgconfig/niryo_one_python_api.pc, /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_python_api.pc)
+Cleaning: (/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_python_api/lib/python3/dist-packages/niryo_one_python_api/__init__.py, /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_python_api/__init__.py)
+Unlinking: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_python_api/cmake/niryo_one_python_apiConfig.cmake
+Already unlinked: {}
+Unlinking: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_python_api.pc
+Already unlinked: {}
+Unlinking: /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_python_api/__init__.py
+Already unlinked: {}

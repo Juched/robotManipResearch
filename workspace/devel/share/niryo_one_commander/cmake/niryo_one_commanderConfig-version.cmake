@@ -1,1 +1,1 @@
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_commander/share/niryo_one_commander/cmake/niryo_one_commanderConfig-version.cmake
+/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_commander/share/niryo_one_commander/cmake/niryo_one_commanderConfig-version.cmake

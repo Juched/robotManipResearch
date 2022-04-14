@@ -1,4 +1,4 @@
-prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_tools
+prefix=/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_tools
 
 Name: niryo_one_tools
 Description: Description of niryo_one_tools

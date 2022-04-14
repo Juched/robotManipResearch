@@ -1,8 +1,1 @@
-prefix=/home/andrew/robotManipResearch/workspace/devel
-
-Name: dynamixel_sdk
-Description: Description of dynamixel_sdk
-Version: 3.4.7
-Cflags: -I/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk/include
-Libs: -L${prefix}/lib -ldynamixel_sdk
-Requires: 
+/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc

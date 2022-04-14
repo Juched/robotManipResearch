@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.pdb"
-  "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so"
+  "/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.pdb"
+  "/home/andrew/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so"
   "CMakeFiles/dynamixel_sdk.dir/src/group_bulk_read.cpp.o"
   "CMakeFiles/dynamixel_sdk.dir/src/group_bulk_write.cpp.o"
   "CMakeFiles/dynamixel_sdk.dir/src/group_sync_read.cpp.o"

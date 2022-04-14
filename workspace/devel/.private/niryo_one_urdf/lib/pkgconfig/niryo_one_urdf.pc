@@ -1,4 +1,4 @@
-prefix=/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_urdf
+prefix=/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf
 
 Name: niryo_one_urdf
 Description: Description of niryo_one_urdf

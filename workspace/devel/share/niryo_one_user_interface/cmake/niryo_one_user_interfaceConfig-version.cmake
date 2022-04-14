@@ -1,1 +1,1 @@
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake
+/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_user_interface/share/niryo_one_user_interface/cmake/niryo_one_user_interfaceConfig-version.cmake

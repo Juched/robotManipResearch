@@ -67,14 +67,14 @@ set(niryo_one_rpi_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(niryo_one_rpi_SOURCE_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_rpi)
-  set(niryo_one_rpi_DEVEL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi)
+  set(niryo_one_rpi_SOURCE_PREFIX /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_rpi)
+  set(niryo_one_rpi_DEVEL_PREFIX /home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_rpi)
   set(niryo_one_rpi_INSTALL_PREFIX "")
   set(niryo_one_rpi_PREFIX ${niryo_one_rpi_DEVEL_PREFIX})
 else()
   set(niryo_one_rpi_SOURCE_PREFIX "")
   set(niryo_one_rpi_DEVEL_PREFIX "")
-  set(niryo_one_rpi_INSTALL_PREFIX /home/pparekh/Documents/4998/robotManipResearch/workspace/install)
+  set(niryo_one_rpi_INSTALL_PREFIX /home/andrew/robotManipResearch/workspace/install)
   set(niryo_one_rpi_PREFIX ${niryo_one_rpi_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pparekh/Documents/4998/robotManipResearch/workspace/install/lib;/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/andrew/robotManipResearch/workspace/install/lib;/home/andrew/robotManipResearch/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

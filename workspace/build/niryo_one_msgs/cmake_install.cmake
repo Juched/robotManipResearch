@@ -1,8 +1,8 @@
-# Install script for directory: /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs
+# Install script for directory: /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pparekh/Documents/4998/robotManipResearch/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/andrew/robotManipResearch/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,258 +49,258 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/_setup_util.py")
+   "/home/andrew/robotManipResearch/workspace/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE PROGRAM FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE PROGRAM FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/env.sh")
+   "/home/andrew/robotManipResearch/workspace/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE PROGRAM FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE PROGRAM FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/setup.bash;/home/pparekh/Documents/4998/robotManipResearch/workspace/install/local_setup.bash")
+   "/home/andrew/robotManipResearch/workspace/install/setup.bash;/home/andrew/robotManipResearch/workspace/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.bash"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE FILE FILES
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.bash"
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/setup.sh;/home/pparekh/Documents/4998/robotManipResearch/workspace/install/local_setup.sh")
+   "/home/andrew/robotManipResearch/workspace/install/setup.sh;/home/andrew/robotManipResearch/workspace/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.sh"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE FILE FILES
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.sh"
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/setup.zsh;/home/pparekh/Documents/4998/robotManipResearch/workspace/install/local_setup.zsh")
+   "/home/andrew/robotManipResearch/workspace/install/setup.zsh;/home/andrew/robotManipResearch/workspace/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE FILE FILES
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pparekh/Documents/4998/robotManipResearch/workspace/install/.rosinstall")
+   "/home/andrew/robotManipResearch/workspace/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pparekh/Documents/4998/robotManipResearch/workspace/install" TYPE FILE FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/andrew/robotManipResearch/workspace/install" TYPE FILE FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/msg" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RPY.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ShiftPose.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RobotState.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RobotMoveCommand.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ToolCommand.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ProcessState.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/HardwareStatus.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/LogStatus.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/DigitalIOState.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/SoftwareVersion.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Sequence.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/SequenceAutorunStatus.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/TrajectoryPlan.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/MatlabMoveResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Position.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Trajectory.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ObjectPose.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ConveyorFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RPY.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ShiftPose.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RobotState.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/RobotMoveCommand.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ToolCommand.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ProcessState.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/HardwareStatus.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/LogStatus.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/DigitalIOState.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/SoftwareVersion.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Sequence.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/SequenceAutorunStatus.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/TrajectoryPlan.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/MatlabMoveResult.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Position.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/Trajectory.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ObjectPose.msg"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/msg/ConveyorFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/srv" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetInt.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/RobotMove.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageProcess.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetLeds.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetInt.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PingDxlTool.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/OpenGripper.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/CloseGripper.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PullAirVacuumPump.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PushAirVacuumPump.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetDigitalIO.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetDigitalIO.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetSequenceList.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageSequence.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetSequenceAutorun.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManagePosition.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetPositionList.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageTrajectory.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetTrajectoryList.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ChangeHardwareVersion.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SendCustomDxlValue.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ChangeMotorConfig.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetString.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetCalibrationCam.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetCalibrationCam.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ObjDetection.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/EditGrip.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/EditWorkspace.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetTargetPose.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceRatio.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceList.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/TakePicture.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetConveyor.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ControlConveyor.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/UpdateConveyorId.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceRobotPoses.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/DebugMarkers.srv"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/DebugColorDetection.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetInt.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/RobotMove.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageProcess.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetLeds.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetInt.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PingDxlTool.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/OpenGripper.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/CloseGripper.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PullAirVacuumPump.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/PushAirVacuumPump.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetDigitalIO.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetDigitalIO.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetSequenceList.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageSequence.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetSequenceAutorun.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManagePosition.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetPositionList.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ManageTrajectory.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetTrajectoryList.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ChangeHardwareVersion.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SendCustomDxlValue.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ChangeMotorConfig.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetString.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetCalibrationCam.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetCalibrationCam.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ObjDetection.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/EditGrip.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/EditWorkspace.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetTargetPose.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceRatio.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceList.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/TakePicture.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/SetConveyor.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/ControlConveyor.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/UpdateConveyorId.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/GetWorkspaceRobotPoses.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/DebugMarkers.srv"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/srv/DebugColorDetection.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/action" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/JoystickJoints.action"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/RobotMove.action"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/Tool.action"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/Sequence.action"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/JoystickJoints.action"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/RobotMove.action"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/Tool.action"
+    "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/action/Sequence.action"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/msg" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsAction.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionFeedback.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsAction.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsActionFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/JoystickJointsFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/msg" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveAction.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionFeedback.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveAction.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveActionFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/RobotMoveFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/msg" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolAction.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionFeedback.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolAction.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolActionFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/ToolFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/msg" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceAction.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionFeedback.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceGoal.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceResult.msg"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceAction.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceActionFeedback.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceGoal.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceResult.msg"
+    "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/cmake" TYPE FILE FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/cmake" TYPE FILE FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include/niryo_one_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/include/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/roseus/ros/niryo_one_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/roseus/ros/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/common-lisp/ros/niryo_one_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/common-lisp/ros/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/gennodejs/ros/niryo_one_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/gennodejs/ros/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib/python3/dist-packages/niryo_one_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib/python3/dist-packages/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib/python3/dist-packages/niryo_one_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/lib/python3/dist-packages/niryo_one_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/cmake" TYPE FILE FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/cmake" TYPE FILE FILES "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs/cmake" TYPE FILE FILES
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgsConfig.cmake"
-    "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgsConfig-version.cmake"
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgsConfig.cmake"
+    "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/catkin_generated/installspace/niryo_one_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs" TYPE FILE FILES "/home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/niryo_one_msgs" TYPE FILE FILES "/home/andrew/robotManipResearch/workspace/src/niryo_one_ros/niryo_one_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/gtest/cmake_install.cmake")
+  include("/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -312,5 +312,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pparekh/Documents/4998/robotManipResearch/workspace/build/niryo_one_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andrew/robotManipResearch/workspace/build/niryo_one_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

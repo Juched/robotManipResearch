@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
+CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk
+CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/bui
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -1,0 +1,1 @@
+/home/andrew/robotManipResearch/workspace/devel/.private/gpd_ros/share/common-lisp/ros/gpd_ros/msg/_package_GraspConfig.lisp

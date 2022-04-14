@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/andrew/robotManipResearch/workspace/devel/.private/gpd_ros/setup.sh

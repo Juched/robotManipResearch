@@ -1,8 +1,1 @@
-prefix=/home/andrew/robotManipResearch/workspace/devel
-
-Name: niryo_one_bringup
-Description: Description of niryo_one_bringup
-Version: 2.3.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_bringup/lib/pkgconfig/niryo_one_bringup.pc

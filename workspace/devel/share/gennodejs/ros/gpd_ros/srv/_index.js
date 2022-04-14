@@ -1,0 +1,1 @@
+/home/andrew/robotManipResearch/workspace/devel/.private/gpd_ros/share/gennodejs/ros/gpd_ros/srv/_index.js

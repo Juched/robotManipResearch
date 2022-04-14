@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
+CMAKE_SOURCE_DIR = /home/andrew/robotManipResearch/workspace/src/niryo_one_ros/dynamixel_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk
+CMAKE_BINARY_DIR = /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pparekh/Documents/4998/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/robotManipResearch/workspace/build/dynamixel_sdk/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
