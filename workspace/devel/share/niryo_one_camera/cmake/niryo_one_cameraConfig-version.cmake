@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_camera/share/niryo_one_camera/cmake/niryo_one_cameraConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_moveit/share/gennodejs/ros/niryo_moveit/msg/NiryoMoveitJoints.js

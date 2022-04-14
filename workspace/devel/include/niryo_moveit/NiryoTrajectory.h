@@ -1,0 +1,1 @@
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_moveit/include/niryo_moveit/NiryoTrajectory.h
