@@ -1,0 +1,6 @@
+niryo_one_ros/niryo_one_debug
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/cmake.lock /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/share/niryo_one_debug/cmake/niryo_one_debugConfig.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig.cmake
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_debug/cmake/niryo_one_debugConfig-version.cmake
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/niryo_one_debug/dxl_debug_tools /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/niryo_one_debug/dxl_debug_tools
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_debug/lib/pkgconfig/niryo_one_debug.pc /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_debug.pc
