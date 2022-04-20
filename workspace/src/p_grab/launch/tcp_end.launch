@@ -1,5 +1,5 @@
 <launch>
-    <arg name="tcp_ip" default="0.0.0.0" />
+    <arg name="tcp_ip" default="192.168.0.107" />
     <arg name="tcp_port" default="10000" />
 
     <node name="republishleft" type="republish" pkg="image_transport" output="screen" args="compressed in:=/left/image raw out:=/left/image_raw" />
