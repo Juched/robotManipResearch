@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/mcp_can_rpi/share/mcp_can_rpi/cmake/mcp_can_rpiConfig-version.cmake

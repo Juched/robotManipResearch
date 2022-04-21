@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_camera_jevois/share/niryo_one_camera_jevois/cmake/niryo_one_camera_jevoisConfig.cmake

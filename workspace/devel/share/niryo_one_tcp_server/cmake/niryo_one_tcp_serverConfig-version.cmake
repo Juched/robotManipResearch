@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_tcp_server/share/niryo_one_tcp_server/cmake/niryo_one_tcp_serverConfig-version.cmake

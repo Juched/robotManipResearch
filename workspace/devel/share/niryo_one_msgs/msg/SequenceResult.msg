@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_msgs/share/niryo_one_msgs/msg/SequenceResult.msg

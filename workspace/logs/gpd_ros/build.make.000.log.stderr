@@ -1,9 +1,0 @@
-In file included from [01m[K/home/andrew/robotManipResearch/workspace/src/gpd_ros/src/gpd_ros/grasp_messages.cpp:1[m[K:
-[01m[K/home/andrew/robotManipResearch/workspace/src/gpd_ros/include/gpd_ros/grasp_messages.h:39:10:[m[K [01;31m[Kfatal error: [m[Kgpd_ros/GraspConfig.h: No such file or directory
-   39 | #include [01;31m[K<gpd_ros/GraspConfig.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/gpd_ros_grasp_messages.dir/build.make:63: CMakeFiles/gpd_ros_grasp_messages.dir/src/gpd_ros/grasp_messages.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:242: CMakeFiles/gpd_ros_grasp_messages.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [Makefile:141: all] Error 2

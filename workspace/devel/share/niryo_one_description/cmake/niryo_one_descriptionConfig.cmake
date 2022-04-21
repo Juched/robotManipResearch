@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake

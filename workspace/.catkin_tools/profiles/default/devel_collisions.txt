@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock 120
 /home/andrew/robotManipResearch/workspace/devel/./cmake.lock 266
+=======
+/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock 144
+/home/andrew/robotManipResearch/workspace/devel/./cmake.lock 147
+>>>>>>> a2e416091656326b323ed63cd4486118bd0618dd

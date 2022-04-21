@@ -8,9 +8,21 @@
         <remap from="/stereo/right/image_raw" to="/right/image_raw" />
         <remap from="/stereo/left/camera_info" to="/left/image/camera_info" />
         <remap from="/stereo/right/camera_info" to="/right/image/camera_info" />
+        <param name="prefilter_size" value="255" />
+        <param name="prefilter_cap" value="9" />
+        <param name="correlation_window" value="15" />
+        <param name="min_disparity" value="0" />
+        <param name="disparity_range" value="192" />
+        <param name="uniqueness_ratio" value="10.0" />
+        <param name="texture_threshold" value="5" />
+        <param name="speckle_size" value="999" />
+        <param name="speckle_range" value="31" />
+
     </node>
     <param name="robot_description" command="$(find xacro)/xacro --inorder $(find niryo_one_description)/urdf/v1/niryo_one.urdf.xacro" />
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"></node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+        <rosparam param="source_list">["joint_states"]</rosparam>
+    </node>
     <node pkg="p_grab" type="pointcloud_republisher.py" name="points_repub" output="screen"></node>
 </launch>

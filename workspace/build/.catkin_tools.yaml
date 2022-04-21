@@ -1,6 +1,0 @@
-devel_space: /home/andrew/robotManipResearch/workspace/devel
-install: false
-install_space: /home/andrew/robotManipResearch/workspace/install
-profile: default
-source_space: /home/andrew/robotManipResearch/workspace/src
-workspace: /home/andrew/robotManipResearch/workspace

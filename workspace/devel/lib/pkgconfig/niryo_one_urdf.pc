@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/niryo_one_urdf/lib/pkgconfig/niryo_one_urdf.pc

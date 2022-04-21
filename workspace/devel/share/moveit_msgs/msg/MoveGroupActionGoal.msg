@@ -1,1 +1,0 @@
-/home/andrew/robotManipResearch/workspace/devel/.private/moveit_msgs/share/moveit_msgs/msg/MoveGroupActionGoal.msg
