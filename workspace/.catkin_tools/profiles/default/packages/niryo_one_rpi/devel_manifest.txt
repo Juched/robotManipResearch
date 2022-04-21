@@ -1,6 +1,0 @@
-niryo_one_ros/niryo_one_rpi
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/cmake.lock /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/share/niryo_one_rpi/cmake/niryo_one_rpiConfig.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_rpi/cmake/niryo_one_rpiConfig.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/share/niryo_one_rpi/cmake/niryo_one_rpiConfig-version.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_rpi/cmake/niryo_one_rpiConfig-version.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/lib/pkgconfig/niryo_one_rpi.pc /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_rpi.pc
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_rpi/lib/python3/dist-packages/niryo_one_rpi/__init__.py /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/python3/dist-packages/niryo_one_rpi/__init__.py

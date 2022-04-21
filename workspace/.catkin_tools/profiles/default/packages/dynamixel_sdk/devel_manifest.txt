@@ -1,6 +1,0 @@
-niryo_one_ros/dynamixel_sdk
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/cmake.lock /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/libdynamixel_sdk.so
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/dynamixel_sdk.pc

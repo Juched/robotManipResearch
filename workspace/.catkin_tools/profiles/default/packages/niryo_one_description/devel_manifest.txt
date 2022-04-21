@@ -1,5 +1,0 @@
-niryo_one_ros/niryo_one_description
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_description/cmake.lock /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/./cmake.lock
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig-version.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_description/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/share/niryo_one_description/cmake/niryo_one_descriptionConfig.cmake
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_description/lib/pkgconfig/niryo_one_description.pc /home/pparekh/Documents/4998/robotManipResearch/workspace/devel/lib/pkgconfig/niryo_one_description.pc
