@@ -1,1 +1,0 @@
-/home/pparekh/Documents/4998/robotManipResearch/workspace/devel/.private/niryo_one_bringup/share/niryo_one_bringup/cmake/niryo_one_bringupConfig-version.cmake
