@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 import rospy
 from std_msgs.msg import String
+
+import sensor_msgs
 from sensor_msgs.msg import PointCloud2
+from gpd_ros.msg import CloudSamples
+# import ros_numpy
+
+MIN_Z = 2
 
 pub = rospy.Publisher("/points2", PointCloud2, queue_size=10)
 
@@ -9,8 +15,19 @@ def callback(msg:PointCloud2):
     seq = msg.header.seq
     msg.header.stamp = rospy.Time.now()
     msg.header.seq = seq
-    pub.publish(msg)
-    
+
+    cloud_sample = CloudSamples()
+
+    for point in sensor_msgs.point_cloud2.read_points(msg, skip_nans=True):
+        if point[2] >= MIN_Z:
+            cloud_sample.samples.append(point)
+
+    # msg.header.stamp
+    # msg.header.seq = seq
+
+
+    pub.publish(cloud_sample)
+
 def listener():
 
     # In ROS, nodes are uniquely named. If two nodes with the same
