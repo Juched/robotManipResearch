@@ -48,7 +48,7 @@ public class RGBCameraPublisher : MonoBehaviour
         this._message.header.frame_id = this._frameId;
         this._message.format = "jpeg";
 
-        this._camInfomessage = CameraInfoGenerator.ConstructCameraInfoMessage(GetComponent<Camera>(), this._message.header, this._baseline);
+       
 
     }
 
@@ -60,9 +60,10 @@ public class RGBCameraPublisher : MonoBehaviour
         {
             // Update ROS Message
             this._message.header = now();
+            this._message.header.frame_id = this._frameId;
             this._message.data = this._camera.data;
             this._ros.Send(this._topicName, this._message);
-
+            this._camInfomessage = CameraInfoGenerator.ConstructCameraInfoMessage(GetComponent<Camera>(), this._message.header, this._baseline);
 
             this._ros.Send(this._camInfoTopic, this._camInfomessage);
             // Update time
