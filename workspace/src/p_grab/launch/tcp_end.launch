@@ -4,8 +4,8 @@
     <!-- <arg name="tcp_ip" default="192.168.0.107" /> -->
     <arg name="tcp_port" default="10000" />
 
-    <node name="republishleft" type="republish" pkg="image_transport" output="screen" args="compressed in:=/left/image raw out:=/left/image_raw" />
-    <node name="republishright" type="republish" pkg="image_transport" output="screen" args="compressed in:=/right/image raw out:=/right/image_raw" />
+    <node name="republishleft" type="republish" pkg="image_transport" output="screen" args="compressed in:=/left/image raw out:=/stereo/left/image_raw" />
+    <node name="republishright" type="republish" pkg="image_transport" output="screen" args="compressed in:=/right/image raw out:=/stereo/right/image_raw" />
 
     <node name="unity_endpoint" pkg="ros_tcp_endpoint" type="default_server_endpoint.py" output="screen">
         <param name="tcp_ip" type="string" value="$(arg tcp_ip)" />

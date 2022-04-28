@@ -1,5 +1,5 @@
 <launch>
-  <!-- <node name="detect_grasps" pkg="gpd_ros" type="detect_grasps" output="screen" launch-prefix="gdb args"> -->
+  <!-- <node name="detect_grasps" pkg="gpd_ros" type="detect_grasps" output="screen" launch-prefix="gdb - -args"> -->
   <node name="detect_grasps" pkg="gpd_ros" type="detect_grasps" output="screen">
 
     <!-- If sequential importance sampling is used (default: false) -->
